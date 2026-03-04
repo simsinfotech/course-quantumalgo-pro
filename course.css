@@ -278,8 +278,8 @@ h1, h2, h3, h4, h5, h6 {
 .sol-step { text-align: center; transition: all 0.3s ease; cursor: default; }
 .sol-step:hover { transform: translateY(-6px); filter: drop-shadow(0 8px 20px rgba(0,82,183,0.2)); }
 .sol-icon {
-  width: 64px; height: 64px; border-radius: 50%;
-  background: rgba(0,82,183,0.08); border: 2px solid var(--primary);
+  width: 72px; height: 72px; border-radius: 50%;
+  background: #fff; border: 3px solid var(--primary); overflow: hidden;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.5rem; margin: 0 auto 16px;
 }
